@@ -1,0 +1,4 @@
+Model,Test Accuracy (%),Test Loss,Correct Predictions,Incorrect Predictions,Macro F1-score (%)
+Custom CNN,80.44,0.4518,362,88,80.41
+ResNet50,89.33,0.2401,402,48,89.3
+VGG16,89.33,0.2699,402,48,89.5
