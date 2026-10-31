@@ -88,13 +88,37 @@ The following table presents the performance of all three models on the test dat
 
 ### Result Visualizations
 
+The following graphs illustrate the training and validation performance of each model over 15 epochs.
+
+#### 1. Custom CNN
+
 **Training and Validation Accuracy**
 
-![Accuracy Graph](results/accuracy_graph.png)
+![CNN Accuracy Graph](results/cnn_accuracy_graph.png)
 
 **Training and Validation Loss**
 
-![Loss Graph](results/loss_graph.png)
+![CNN Loss Graph](results/cnn_loss_graph.png)
+
+#### 2. ResNet50
+
+**Training and Validation Accuracy**
+
+![ResNet50 Accuracy Graph](results/resnet50_accuracy_graph.png)
+
+**Training and Validation Loss**
+
+![ResNet50 Loss Graph](results/resnet50_loss_graph.png)
+
+#### 3. VGG16
+
+**Training and Validation Accuracy**
+
+![VGG16 Accuracy Graph](results/vgg16_accuracy_graph.png)
+
+**Training and Validation Loss**
+
+![VGG16 Loss Graph](results/vgg16_loss_graph.png)
 
 ## Technologies Used
 
@@ -119,8 +143,12 @@ Down-Syndrome-Detection/
 │   └── vgg16_down_syndrome_detection.ipynb
 │
 ├── results/
-│   ├── accuracy_graph.png
-│   ├── loss_graph.png
+│   ├── cnn_accuracy_graph.png
+│   ├── cnn_loss_graph.png
+│   ├── resnet50_accuracy_graph.png
+│   ├── resnet50_loss_graph.png
+│   ├── vgg16_accuracy_graph.png
+│   ├── vgg16_loss_graph.png
 │   ├── model_comparison.csv
 │   └── vgg16_results.csv
 │
