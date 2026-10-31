@@ -1,0 +1,2 @@
+Model,Test Accuracy,Test Loss,Precision (DS),Recall (DS),F1-score (DS),Precision (Healthy),Recall (Healthy),F1-score (Healthy)
+Custom CNN,80.4444,0.4518,0.7796,0.8489,0.8128,0.8341,0.76,0.7953

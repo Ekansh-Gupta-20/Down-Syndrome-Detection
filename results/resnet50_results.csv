@@ -1,0 +1,2 @@
+Model,Test Accuracy,Test Loss,Precision (DS),Recall (DS),F1-score (DS),Precision (Healthy),Recall (Healthy),F1-score (Healthy)
+ResNet50,89.3333,0.2401,0.8526,0.9511,0.8992,0.9447,0.8356,0.8868
