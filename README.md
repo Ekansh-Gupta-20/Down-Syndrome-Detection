@@ -149,8 +149,10 @@ Down-Syndrome-Detection/
 │   ├── resnet50_loss_graph.png
 │   ├── vgg16_accuracy_graph.png
 │   ├── vgg16_loss_graph.png
-│   ├── model_comparison.csv
-│   └── vgg16_results.csv
+│   ├── cnn_results.csv
+│   ├── resnet50_results.csv
+│   ├── vgg16_results.csv
+│   └── model_comparison.csv
 │
 ├── README.md
 ├── requirements.txt
@@ -162,7 +164,9 @@ Down-Syndrome-Detection/
 1. Clone or download this repository.
 2. Install the required dependencies using:
 
-   `pip install -r requirements.txt`
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3. Obtain the dataset separately and organize it according to the paths expected in the notebooks.
 4. Open the notebooks using Google Colab or Jupyter Notebook.
