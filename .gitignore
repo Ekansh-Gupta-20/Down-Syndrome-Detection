@@ -1,0 +1,21 @@
+# Private dataset
+down syndrome dataset/
+
+# Trained model files
+*.keras
+*.h5
+*.hdf5
+
+# Dataset split files (contain local image paths)
+train_split.csv
+validation_split.csv
+test_split.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary files
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
